@@ -23,7 +23,7 @@ output = nsa_func(
     g_slc=g_slc,
     g_swa=g_swa,
     block_counts=16,
-    block_size=16,  # Must be >= 16
+    block_size=16,
     window_size=32,
     scale=None  # Defaults to 1/sqrt(D)
 )
