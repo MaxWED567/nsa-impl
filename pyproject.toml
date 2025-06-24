@@ -1,0 +1,13 @@
+[project]
+name = "tilde-nsa"
+version = "0.1.0"
+description = "Simple environment for NSA implementation"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flash-attn>=2.8.0.post2",
+    "flash-linear-attention>=0.2.2",
+    "ninja>=1.11.1.4",
+    "psutil>=7.0.0",
+    "torch>=2.7.1",
+]
