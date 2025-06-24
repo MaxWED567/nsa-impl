@@ -2,6 +2,8 @@
 
 A PyTorch+Triton+FlexAttention implementation of Neighborhood-Selective Attention (NSA) that combines compression, selection, and sliding window attention mechanisms.
 
+For a deep dive into sparse attention mechanisms and the design of this kernel, check out our blog post: [Sparsity is Cool?](https://www.tilderesearch.com/blog/sparse-attn)
+
 ## Installation
 
 ```bash
@@ -37,6 +39,5 @@ output = nsa_func(
 
 This implementation uses components from [flash-linear-attention](https://github.com/fla-org/flash-linear-attention), specifically the parallel NSA implementation for the two-pass variant. We thank the FLA team for their excellent work on efficient attention mechanisms.
 
-## Learn More
+The kernel has been implemented following the Native Sparse Attention paper by DeepSeek: [arXiv:2502.11089](https://arxiv.org/abs/2502.11089).
 
-For a deep dive into sparse attention mechanisms and NSA's architecture, check out our blog post: [Sparsity is Cool?](https://www.tilderesearch.com/blog/sparse-attn)

@@ -1,5 +1,5 @@
 [project]
-name = "tilde-nsa"
+name = "nsa-impl"
 version = "0.1.0"
 description = "Simple environment for NSA implementation"
 readme = "README.md"
