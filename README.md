@@ -2,7 +2,7 @@
 
 A PyTorch+Triton+FlexAttention implementation of NSA that combines compression, selection, and sliding window attention mechanisms described in DeepSeeks [Native Sparse Attention paper](https://arxiv.org/abs/2502.11089).
 
-For a deep dive into sparse attention mechanisms and the design of this kernel, check out our blog post: [Sparsity is Cool?](https://www.tilderesearch.com/blog/sparse-attn)
+For a deep dive into sparse attention mechanisms and the design of this kernel, check out our blog post: [Sparsity is Cool](https://www.tilderesearch.com/blog/sparse-attn).
 
 ## Installation
 
