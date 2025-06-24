@@ -36,3 +36,7 @@ output = nsa_func(
 ## Acknowledgments
 
 This implementation uses components from [flash-linear-attention](https://github.com/fla-org/flash-linear-attention), specifically the parallel NSA implementation for the two-pass variant. We thank the FLA team for their excellent work on efficient attention mechanisms.
+
+## Learn More
+
+For a deep dive into sparse attention mechanisms and NSA's architecture, check out our blog post: [Sparsity is Cool?](https://www.tilderesearch.com/blog/sparse-attn)
